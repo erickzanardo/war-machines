@@ -17,6 +17,10 @@ Fetches all the tanks
 
 Fetch the tank with the given id
 
+`/api/tanks/:id/variants`
+
+Fetch the tank variants from the provided tank id
+
 `/api/aircrafts`
 
 Fetches all the aircrafts 
@@ -24,6 +28,10 @@ Fetches all the aircrafts
 `/api/aircrafts/:id`
 
 Fetch the aircraft with the given id
+
+`/api/aircrafts/:id/variants`
+
+Fetch the aircraft variants from the provided aircraft id
 
 `/api/periods`
 

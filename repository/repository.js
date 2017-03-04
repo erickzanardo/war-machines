@@ -39,4 +39,5 @@ module.exports = {
 
   aircraftsByPeriod: period => filterVehicles("aircrafts", "period", period),
   aircraftsByNation: nation => filterVehicles("aircrafts", "nation", nation),
+  aircraftsByVariant: variant => filterVehicles("aircrafts", "variant", variant),
 };

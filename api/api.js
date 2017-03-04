@@ -9,6 +9,7 @@ const {
   aircrafts,
   aircraftsByPeriod,
   aircraftsByNation,
+  aircraftsByVariant,
   nations,
   periods,
 } = require("../repository/repository");
@@ -29,6 +30,7 @@ router.get("/tanks/:id", (req, res) => renderJsonPromise(tanks(req.params.id), r
 router.get("/tanks/:id/variants", (req, res) => renderJsonPromise(tanksByVariant(req.params.id), res));
 router.get("/aircrafts", (req, res) => renderJsonPromise(aircrafts(), res));
 router.get("/aircrafts/:id", (req, res) => renderJsonPromise(aircrafts(req.params.id), res));
+router.get("/aircrafts/:id/variants", (req, res) => renderJsonPromise(aircraftsByVariant(req.params.id), res));
 router.get("/periods", (req, res) => renderJsonPromise(periods(), res));
 router.get("/periods/:id", (req, res) => renderJsonPromise(periods(req.params.id), res));
 router.get("/periods/:id/tanks", (req, res) => renderJsonPromise(tanksByPeriod(req.params.id), res));
