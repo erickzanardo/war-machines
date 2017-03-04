@@ -1,0 +1,9 @@
+{
+  "id": "seafire",
+  "name": "Supermarine Seafire",
+  "period": "ww2",
+  "type": "fighter",
+  "nation": "UK",
+  "variant": "spitfire",
+  "description": "From Wikipedia, the free encyclopedia\n The Supermarine Seafire was a naval version of the Supermarine Spitfire adapted for operation from aircraft carriers. The name Seafire was arrived at by abbreviating the longer name Sea Spitfire.[1]"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "war-machines",
+  "version": "1.0.0",
+  "description": "Open API with information about combat vehicles",
+  "scripts": {
+    "start": "node ./app.js",
+    "index": "node ./tasks/indexer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/erickzanardo/war-machines"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Erick Zanardo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}
