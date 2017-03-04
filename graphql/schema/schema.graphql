@@ -1,0 +1,16 @@
+type Tank {
+  id: ID!
+  name: String!
+  description: String!
+}
+
+type Aircraft {
+  id: ID!
+  name: String!
+  description: String!
+}
+
+type Query {
+  allTanks: [Tank]
+  allAircrafts: [Aircraft]
+}
