@@ -2,6 +2,8 @@
 
 War machines is a repository of combat vehicles (tanks, aircrafts) information that provides REST and GraphQl (Comming soon) apis.
 
+This application was built to be used as example on a GraphQl lecture
+
 ## Running
 
  - `yarn install`
