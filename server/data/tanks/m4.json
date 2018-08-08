@@ -1,0 +1,12 @@
+{
+  "id": "m4",
+  "name": "M4 Sherman",
+  "period": "ww2",
+  "type": "medium",
+  "nation": "USA",
+  "photos": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/M4_Sherman_tank_-_Flickr_-_Joost_J._Bakker_IJmuiden.jpg/1024px-M4_Sherman_tank_-_Flickr_-_Joost_J._Bakker_IJmuiden.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TankshermanM4.jpg/1024px-TankshermanM4.jpg"
+  ],
+  "description": "From Wikipedia, the free encyclopedia\nThe M4 Sherman, officially Medium Tank, M4, was the most numerous battle tank used by the United States and some of the other Western Allies in World War II. The M4 Sherman proved to be reliable, relatively cheap to produce and available in great numbers. Thousands were distributed through the Lend-Lease program to the British Commonwealth and Soviet Union. The tank was named by the British for the American Civil War General William Tecumseh Sherman."
+}

@@ -1,0 +1,47 @@
+.tank-view {
+  margin: 40px;
+}
+
+.tank-view .desc {
+  font-size: 12px;
+}
+
+.tank-view .content {
+  display: flex;
+  flex: 1;
+}
+
+.tank-view .content .header {
+  display: flex;
+  flex: 1;
+  text-align: left;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.tank-view .content .header .flag {
+  margin-left: 30px;
+  text-align: right;
+}
+
+.tank-view .content .header .flag img {
+  max-width: 200px;
+}
+
+.tank-view .content .photos  {
+  margin-left: 50px;
+}
+
+.tank-view .content .photos img  {
+  max-width: 350px;
+}
+
+.tank-view .content .variant-list li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tank-view .content .variant-list img {
+  max-height: 80px;
+}

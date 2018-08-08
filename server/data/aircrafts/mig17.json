@@ -4,5 +4,8 @@
   "period": "coldwar",
   "type": "fighter",
   "nation": "USSR",
+  "photos": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/MiG-17_landing_by_StuSeeger.jpeg/1024px-MiG-17_landing_by_StuSeeger.jpeg"
+  ],
   "description": "From Wikipedia, the free encyclopedia\n The Mikoyan-Gurevich MiG-17 (Russian: Микоян и Гуревич МиГ-17) (NATO reporting name: Fresco) (China:Shenyang J-5) (Poland: PZL-Mielec Lim-5)[1] is a high-subsonic fighter aircraft produced in the USSR from 1952 and operated by numerous air forces in many variants. It is an advanced development of the very similar appearing MiG-15 of the Korean War.\nThe MiG-17 first saw combat in 1958 over the Straits of Taiwan and was used as an effective threat against supersonic fighters of the United States in the Vietnam War. It was also briefly known as the Type 38, by U.S. Air Force designation prior to the development of NATO codes.[2]\n"
 }

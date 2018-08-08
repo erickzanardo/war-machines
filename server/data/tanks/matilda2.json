@@ -4,5 +4,9 @@
   "period": "ww2",
   "type": "medium",
   "nation": "UK",
+  "photos": [
+    "https://upload.wikimedia.org/wikipedia/commons/3/3a/MatildaII.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/2/21/Matilda_Compass.jpg"
+  ],
   "description": "From Wikipedia, the free encyclopedia\n The Infantry Tank Mark II, best known as the Matilda, was a British infantry tank of the Second World War.[7][8]\nThe design began as the A12 specification in 1936, as a gun-armed counterpart to the first British infantry tank, the machine gun armed, two-man A11 Infantry Tank Mark I. The Mark I was also known as Matilda, and the larger A12 was initially known as the Matilda II, Matilda senior or Waltzing Matilda. The Mark I was abandoned in 1940, and from then on the A12 was almost always known simply as \"the Matilda\".\nWith its heavy armour, the Matilda II was an excellent infantry support tank but with somewhat limited speed and armament. It was the only British tank to serve from the start of the war to its end, although it is particularly associated with the North Africa Campaign. It was replaced in front-line service by the lighter and less costly Infantry Tank Mk III Valentine beginning in late 1941."
 }

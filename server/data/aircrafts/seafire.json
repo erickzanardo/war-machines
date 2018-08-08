@@ -1,0 +1,13 @@
+{
+  "id": "seafire",
+  "name": "Supermarine Seafire",
+  "period": "ww2",
+  "type": "fighter",
+  "nation": "UK",
+  "photos": [
+    "https://upload.wikimedia.org/wikipedia/commons/5/5a/Seafire_1.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Supermarine_Seafire_Mk_IIc_of_No._885_Naval_Air_Squadron_on_the_flight_deck_of_HMS_FORMIDABLE_in_the_Mediterranean%2C_December_1942._A14219.jpg/1024px-Supermarine_Seafire_Mk_IIc_of_No._885_Naval_Air_Squadron_on_the_flight_deck_of_HMS_FORMIDABLE_in_the_Mediterranean%2C_December_1942._A14219.jpg"
+  ],
+  "variant": "spitfire",
+  "description": "From Wikipedia, the free encyclopedia\n The Supermarine Seafire was a naval version of the Supermarine Spitfire adapted for operation from aircraft carriers. The name Seafire was arrived at by abbreviating the longer name Sea Spitfire.[1]"
+}
