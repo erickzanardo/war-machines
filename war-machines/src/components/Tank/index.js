@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.css"
 
-const Tank = ({ tank }) => (
+const Tank = ({ tank, onBack }) => (
   <div className="tank-view">
     <h1>{ tank.name }</h1>
     <div className="content">
@@ -37,6 +37,8 @@ const Tank = ({ tank }) => (
             )
             : null
         }
+
+        <button type="button" onClick={onBack}> Back </button>
       </div>
       <div className="photos">
         { tank.photos.map(photo => ( <img src={photo} /> )) }

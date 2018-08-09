@@ -5,11 +5,11 @@ const {
 } = require("graphql");
 
 const {
-  tanks,
+  nations,
   periods,
 
   aircrafts,
-  nations,
+  tanks,
 
   tanksByNation,
   aircraftsByNation,
@@ -34,6 +34,9 @@ const resolvers = {
     tanks: obj => tanksByNation(obj.id),
   },
   Query: {
+    allNations: (obj, args, context) => nations(),
+    allPeriods: (obj, args, context) => periods(),
+
     allTanks: (obj, args, context) => tanks(),
     allAircrafts: (obj, args, context) => aircrafts(),
 

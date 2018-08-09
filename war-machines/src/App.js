@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Tank from "./components/Tank"
+import Home from "./components/Home"
 import './App.css';
 
 const fetchTank = id => {
@@ -39,8 +40,8 @@ class App extends Component {
     tank: null,
   }
 
-  componentDidMount() {
-    fetchTank("m4")
+  selectTank = tankId => {
+    fetchTank(tankId)
       .then(tank => {
         this.setState({ tank })
       })
@@ -55,8 +56,8 @@ class App extends Component {
         <div className="App-intro">
           {
             this.state.tank
-              ? (<Tank tank={this.state.tank} />)
-              : (<span>No tank selected</span>)
+              ? (<Tank tank={this.state.tank} onBack={() => this.setState({ tank: null })} />)
+              : (<Home onSelectTank={this.selectTank}/>)
           }
         </div>
       </div>

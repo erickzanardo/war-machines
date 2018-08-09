@@ -1,0 +1,14 @@
+.nation-view .flag {
+  margin-right: 10px;
+  max-height: 20px;
+}
+
+.nation-view .tank-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nation-view .tank-list img {
+  max-height: 100px;
+  cursor: pointer;
+}
