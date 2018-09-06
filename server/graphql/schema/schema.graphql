@@ -3,42 +3,8 @@ type Period {
   name: String!
   start: Int!
   end: Int!
-  tanks: [Tank]
-  aircrafts: [Aircraft]
-}
-
-type Nation {
-  id: ID!
-  name: String!
-  flag: String!
-  tanks: [Tank]
-  aircrafts: [Aircraft]
-}
-
-type Tank {
-  id: ID!
-  name: String!
-  description: String!
-  photos: [String]
-  nation: Nation!
-  variants: [Tank]
-  period: Period!
-}
-
-type Aircraft {
-  id: ID!
-  name: String!
-  description: String!
-  photos: [String]
-  nation: Nation!
-  variants: [Aircraft]
-  period: Period!
 }
 
 type Query {
-  findTankById(id: ID!): Tank
-  allTanks: [Tank]
-  allAircrafts: [Aircraft]
-  allNations: [Nation]
   allPeriods: [Period]
 }
